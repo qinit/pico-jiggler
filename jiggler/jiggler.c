@@ -63,6 +63,7 @@ static void run(struct context *ctx) {
 int main() {
   board_init();
   tusb_init();
+  led_init();
 
   struct context ctx;
   context_init(&ctx);
