@@ -1,5 +1,7 @@
 add_executable(jiggler
         jiggler.c
+        led.c
+        mouse.c
         usb_descriptors.c
         )
 
